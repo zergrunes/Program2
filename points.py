@@ -47,3 +47,10 @@ df_odd.plot(
 plt.show()
 
 # draw a bar comparing the number of points in these three groups
+
+# draw a chart of your choice
+plt.plot(x, y)
+plt.xlabel("X coorinates")
+plt.ylabel("Y coordinates")
+plt.title("Line Graph")
+plt.show()
