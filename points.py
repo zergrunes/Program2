@@ -16,7 +16,9 @@ df['x'] = df['x'].astype(int)
 df['y'] = df['y'].astype(int)
 x = df.x
 y = df.y
-plt.scatter(x, y)
+# Draw a scatter graph to show all points.
+plt.scatter(x, y, color='lightcoral')
+plt.xlabel("x coordinates")
+plt.ylabel("y coordinates")
+plt.title("5000 Points")
 plt.show()
-# print(df.shape)
-#print(df.iloc[:, 0])

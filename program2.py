@@ -20,12 +20,12 @@ plt.ylabel("Density")
 plt.show()
 
 # drawing a pie chart showing the % of planets w/ -rotation val vs +rotation val
-labels = 'Positive Rotation', 'Negative Rotation'
+'''labels = 'Positive Rotation', 'Negative Rotation'
 yp = list(df.iloc[:, 6])
 colors = ['gold', 'lightcoral']
 plt.pie(yp, labels=labels, colors=colors, autopct='%1.1f%%')
 plt.axis('equal')
-plt.show()
+plt.show()'''
 
 # draw a line chart with x-axis as planets and y-axis as the gravity
 yg = list(df.iloc[:, 4])
